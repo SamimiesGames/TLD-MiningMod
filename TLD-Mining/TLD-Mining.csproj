@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>TLD_Mining</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Assets" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>E:\SteamLibrary\steamapps\common\TheLongDark Multiplayer\MelonLoader\Managed\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="MelonLoader">
+        <HintPath>E:\SteamLibrary\steamapps\common\TheLongDark Multiplayer\MelonLoader\MelonLoader.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>E:\SteamLibrary\steamapps\common\TheLongDark Multiplayer\MelonLoader\Managed\UnityEngine.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
